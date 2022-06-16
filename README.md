@@ -8,3 +8,7 @@ For convenience I've included a [conda](https://www.anaconda.com/) environment f
 1. Install Anaconda. Refer to [anaconda official documentation](https://docs.anaconda.com/anaconda/install/).
 2. Edit the ```name``` and ```prefix``` configuration in ```condaenv/environment.yml``` so that it points to where your other conda environments are.
 3. Install the conda environment using the ```conda/environment.yml``` file. You can do so by following the [official documentation](https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html#creating-an-environment-from-an-environment-yml-file).
+4. Activate the conda environment. Follow the [official documentation](https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html#activating-an-environment)
+
+## How to use it
+To use this tool you'll need to follow the installation steps above, so you **install** and **activate** the conda environment.
