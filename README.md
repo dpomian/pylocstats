@@ -13,7 +13,7 @@ For convenience I've included a [conda](https://www.anaconda.com/) environment f
 ## How to use it
 To use this tool you'll need to follow the installation steps above, so you **install** and **activate** the conda environment.
 After you have installed and activated the conda environment:
-```
+```bash
 cd pylocstats/src
 pylocstats/src > python cli.py -h
 usage: pylocstats [-h] {clone,clone-single,stats,stats-single,plot} ...
@@ -32,7 +32,7 @@ positional arguments:
 
 You can run help for each of the commands. For example if you would like to see what parameters does the clone command have, you can run:
 
-```
+```bash
 pylocstats/src > python cli.py clone -h
 usage: pylocstats clone [-h] --repos-file REPOS_FILE --dest-path DEST_PATH
 
