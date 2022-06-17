@@ -12,3 +12,34 @@ For convenience I've included a [conda](https://www.anaconda.com/) environment f
 
 ## How to use it
 To use this tool you'll need to follow the installation steps above, so you **install** and **activate** the conda environment.
+After you have installed and activated the conda environment:
+```
+cd pylocstats/src
+pylocstats/src > python cli.py -h
+usage: pylocstats [-h] {clone,clone-single,stats,stats-single,plot} ...
+
+Repos Stats
+
+positional arguments:
+  {clone,clone-single,stats,stats-single,plot}
+                        commands
+    clone               Clone multiple git repos
+    clone-single        Clone a single git repo
+    stats               Build Lines of Code stats
+    stats-single        Single project
+    plot                Violin plots
+```
+
+You can run help for each of the commands. For example if you would like to see what parameters does the clone command have, you can run:
+
+```
+pylocstats/src > python cli.py clone -h
+usage: pylocstats clone [-h] --repos-file REPOS_FILE --dest-path DEST_PATH
+
+optional arguments:
+  -h, --help            show this help message and exit
+  --repos-file REPOS_FILE
+                        repo list file
+  --dest-path DEST_PATH
+                        destination path
+```
